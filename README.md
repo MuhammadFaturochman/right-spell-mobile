@@ -1,3 +1,5 @@
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/master/app/src/main/res/drawable/right_spell_logo.png" width="300">
+
 # RightSpell
 This repository is for Capstone Project in[ Dicoding Academy](https://www.dicoding.com/). This application is purpose to help user to use right spell.
 # Team Members - C241-PR573
