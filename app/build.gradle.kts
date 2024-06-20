@@ -1,3 +1,4 @@
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -21,12 +22,16 @@ android {
 
     buildTypes {
         release {
+            val BASE_URL = "https://backend-dot-test-69-424605.et.r.appspot.com"
+            buildConfigField("String", "BASE_URL", "\"$BASE_URL\"")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+        debug { val BASE_URL = "https://backend-dot-test-69-424605.et.r.appspot.com"
+            buildConfigField("String", "BASE_URL", "\"$BASE_URL\"") }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -50,7 +55,6 @@ dependencies {
 
     // Circle ImageView
     implementation("de.hdodenhof:circleimageview:3.1.0")
-    implementation(libs.androidx.activity)
 
     // Testing
     testImplementation("junit:junit:4.13.2")
@@ -58,11 +62,11 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     // Lifecycle
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2")
 
     // Fragment
-    implementation("androidx.fragment:fragment-ktx:1.7.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.0")
 
     // Activity
     implementation("androidx.activity:activity-ktx:1.9.0")
@@ -93,5 +97,9 @@ dependencies {
 
     // DataStore
     implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+    // API Google
+    implementation ("com.google.android.gms:play-services-auth:21.2.0")
+
 
 }

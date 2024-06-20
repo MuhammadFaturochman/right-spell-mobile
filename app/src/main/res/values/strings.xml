@@ -13,4 +13,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="signin">Sign In</string>
     <string name="already_have_a_account">Already have a account?</string>
+    <string name="donot_have_a_account">Don\'t have a account?\n</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
 </resources>
