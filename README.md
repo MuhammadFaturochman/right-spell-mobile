@@ -26,3 +26,12 @@ This repository is for Capstone Project in[ Dicoding Academy](https://www.dicodi
 - Android Studio
 - Retrofit
 - Navigation Ui
+
+# Screenshoot UI Aplication
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20022849.png">
+<img src=https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20022913.png">
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20022935.png">
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20023005.png">
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20023151.png">
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20023236.png">
+<img src="https://github.com/MuhammadFaturochman/right-spell-mobile/blob/resource/Screenshot%202024-06-21%20023301.png">
